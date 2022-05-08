@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "check-types": "tsc --noEmit",
+    "test": "jest .",
     "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
     "format": "prettier --check .",
